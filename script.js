@@ -108,14 +108,29 @@ document.querySelectorAll(".animar").forEach((elemento) => {
 
 });
 
-// MENU MOBILE
+const topoBtn = document.getElementById("topo-btn");
 
-const menuBtn = document.getElementById("menu-btn");
+window.addEventListener("scroll", () => {
 
-const nav = document.querySelector("nav");
+    if(window.scrollY > 300){
 
-menuBtn.addEventListener("click", () => {
+        topoBtn.classList.add("mostrar");
 
-    nav.classList.toggle("ativo");
+    }
+
+    else{
+
+        topoBtn.classList.remove("mostrar");
+
+    }
+
+});
+
+topoBtn.addEventListener("click", () => {
+
+    window.scrollTo({
+        top: 0,
+        behavior: "smooth"
+    });
 
 });
