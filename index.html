@@ -1,5 +1,3 @@
-<!-- index.html -->
-
 <!DOCTYPE html>
 <html lang="pt-br">
 
@@ -9,20 +7,20 @@
 
     <meta charset="UTF-8">
 
-    <meta 
-        name="viewport" 
+    <meta
+        name="viewport"
         content="width=device-width, initial-scale=1.0"
     >
 
-    <meta 
-        name="description" 
+    <meta
+        name="description"
         content="Cartão de visita pessoal de Ana Júlia Rossi."
     >
 
     <meta property="og:title" content="Ana Júlia Rossi">
 
-    <meta 
-        property="og:description" 
+    <meta
+        property="og:description"
         content="Projeto pessoal desenvolvido com HTML, CSS e JavaScript."
     >
 
@@ -30,19 +28,19 @@
 
     <title>Ana Júlia Rossi</title>
 
-    <link 
-        rel="preconnect" 
+    <link
+        rel="preconnect"
         href="https://fonts.googleapis.com"
     >
 
-    <link 
-        rel="preconnect" 
-        href="https://fonts.gstatic.com" 
+    <link
+        rel="preconnect"
+        href="https://fonts.gstatic.com"
         crossorigin
     >
 
-    <link 
-        href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap" 
+    <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap"
         rel="stylesheet"
     >
 
@@ -50,15 +48,11 @@
 
 </head>
 
-<button id="topo-btn">↑</button>
-
 <body>
 
     <header>
 
         <nav>
-
-            </button>
 
             <a href="#sobre">Sobre</a>
 
@@ -70,10 +64,11 @@
 
             <a href="#contato">Contato</a>
 
-            <button 
+            <button
                 id="tema-btn"
                 class="tema-btn"
                 type="button"
+                aria-label="Alternar tema"
             >
                 🌙
             </button>
@@ -116,7 +111,7 @@
 
         </section>
 
-        <section 
+        <section
             class="sobre-section animar"
             id="sobre"
         >
@@ -125,7 +120,7 @@
 
             <p>
                 Tenho 20 anos, sou capixaba e atualmente moro em BH,
-                me mudei para realizar minha faculdade.
+                me mudei para fazer faculdade.
             </p>
 
             <p>
@@ -136,13 +131,13 @@
 
             <p>
                 Além disso, gosto muito de atividades criativas
-                como scrapbook e leitura, principalmente romance
-                e suspense.
+                como scrapbook e leitura. Meus gêneros favoritos
+                são romance e suspense.
             </p>
 
         </section>
 
-        <section 
+        <section
             class="skills-section animar"
             id="habilidades"
         >
@@ -163,7 +158,7 @@
 
         </section>
 
-        <section 
+        <section
             class="galeria animar"
             id="galeria"
         >
@@ -186,13 +181,13 @@
                     width="300"
                     height="350"
                     loading="lazy"
-                > 
+                >
 
             </div>
 
         </section>
 
-        <section 
+        <section
             class="video-section animar"
             id="video"
         >
@@ -203,7 +198,7 @@
 
                 <iframe
                     src="https://www.youtube.com/embed/vGv0y1EzgM4"
-                    title="Vídeo do método pomodoro (método de estudos)"
+                    title="Vídeo do método pomodoro"
                     loading="lazy"
                     allowfullscreen
                 >
@@ -213,7 +208,7 @@
 
         </section>
 
-        <section 
+        <section
             class="contato-section animar"
             id="contato"
         >
@@ -233,7 +228,7 @@
                 ajuliarossim@gmail.com
             </a>
 
-            <span 
+            <span
                 id="email-feedback"
                 class="email-feedback"
             >
@@ -278,6 +273,14 @@
         </p>
 
     </footer>
+
+    <button
+        id="topo-btn"
+        type="button"
+        aria-label="Voltar ao topo"
+    >
+        ↑
+    </button>
 
     <script src="script.js"></script>
 

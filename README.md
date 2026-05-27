@@ -44,3 +44,4 @@ Rodar com servidor local:
 
 ```bash
 python3 -m http.server 8000
+```

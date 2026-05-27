@@ -27,6 +27,7 @@
 body{
     background: var(--creme);
     font-family: 'Poppins', sans-serif;
+    font-size: var(--fs-base);
     overflow-x: hidden;
     color: var(--texto);
     transition: 0.3s;
@@ -325,6 +326,31 @@ body.dark .bolha{
 .menu-btn{
     display: none;
 }
+
+/* TABLETS */
+
+@media (max-width: 1024px){
+
+    .hero{
+        padding: 4rem 6%;
+        gap: 2rem;
+    }
+
+    .foto-container img{
+        width: 20rem;
+        height: 20rem;
+    }
+
+    .sobre-section,
+    .skills-section,
+    .contato-section,
+    .galeria,
+    .video-section{
+        padding: 4rem 6%;
+    }
+}
+
+/* CELULARES */
 
 @media (max-width: 768px){
 
