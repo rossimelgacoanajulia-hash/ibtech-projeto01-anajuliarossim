@@ -8,6 +8,8 @@ Cartão de visita pessoal desenvolvido com HTML, CSS e JavaScript puros, sem uso
 
 O projeto apresenta uma página pessoal organizada em seções, com foco em estruturação de layout, estilização, responsividade e interações com JavaScript.
 
+https://rossimelgacoanajulia-hash.github.io/ibtech-projeto01-anajuliarossim/
+
 ---
 
 ## Stack
